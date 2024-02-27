@@ -1,0 +1,139 @@
+{
+    "intents": [
+        {
+            "tags": "introduction",
+            "patterns": [
+                "who are you?",
+                "introduce yourself",
+                "tell me about you",
+                "what's your purpose",
+                "who created you",
+                "why were you made",
+                "are you a robot",
+                "are you human"
+            ],
+            "responses": [
+                "Greetings! I am jarvis, a virtual intelligence created by Mr. Dennis. I'm here to assist you with various tasks. Feel free to ask me anything!",
+                "My name is jarvis. I'm a virtual intelligence designed to help people with daily tasks and provide information. Feel free to explore my capabilities!",
+                "I am jarvis, a personal assistant program created by Mr. Dennis. I'm here to make your life easier by assisting with tasks and answering questions.",
+                "I am jaris, your virtual assistant. Although I am still under development, I am constantly learning and improving to assist you better."
+            ]
+        },
+        {
+            "tags": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "greetings",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "what's up",
+                "howdy",
+                "salutations",
+                "hi friday"
+            ],
+            "responses": ["Hello!", "Welcome back!", "Hi there!", "Greetings!", "Good to see you!"]
+        },
+        {
+            "tags": "time",
+            "patterns": ["what time is it", "tell me the time", "what is the time", "time"],
+            "responses": ["It's time", "The time is now", "Time is fleeting"]
+        },
+        {
+            "tags": "suspension",
+            "patterns": [
+                "are you there friday",
+                "where are you",
+                "friday",
+                "can you hear me",
+                "are you online",
+                "are you awake"
+            ],
+            "responses": ["At your service", "Always ready to assist", "Yes. How may I help you?."]
+        },
+        {
+            "tags": "Date",
+            "patterns": [
+                "what is the date",
+                "the date today",
+                "when is today",
+                "date"
+            ],
+            "responses": ["date"]
+        },
+        {
+            "tags": "feelings",
+            "patterns": [
+                "how are you",
+                "how are you doing",
+                "whats up",
+                "how do you feel",
+                "are you okay"
+            ],
+            "responses": [
+                "I am doing good. Boss. Anything i can do for you?.",
+                "I'm doing well, thank you for asking. How are you doing Boss?"
+            ]
+        },
+        {
+            "tags": "jarvis",
+            "patterns": [
+                "i am good jarvis",
+                "am also good",
+                "i feel perfectly fine",
+                "am okey friday"
+            ],
+            "responses": [
+                "I am Glad to here that boss. AM always here for you boss.",
+                "Thats great.","Awesome!!"
+            ]
+        },
+        {
+            "tags": "day",
+            "patterns": [
+                "what day is today",
+                "keyword day",
+                "which day is it",
+                "day of the week"
+            ],
+            "responses": ["day"]
+        },
+        {
+            "tags": "unknown",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tags": "google",
+            "patterns": [
+                "search on google",
+                "google",
+                "gather from google",
+                "google search"
+            ],
+            "responses": ["google"]
+        },
+        {
+            "tags": "wikipedia",
+            "patterns": [
+                "search on Wikipedia",
+                "Wikipedia this",
+                "look up on Wikipedia",
+                "Wikipedia search"
+            ],
+            "responses": ["wikipedia"]
+        },
+        {
+            "tags": "meet my friend",
+            "patterns": [
+                "jarvis meet my friend",
+                "here is my friend"
+            ],
+            "responses": [
+                "Hello. I am Jarvis. Nice to know you friend."
+            ]
+        }
+    ]
+}
